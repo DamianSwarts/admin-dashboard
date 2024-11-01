@@ -94,11 +94,9 @@ header {
     padding: 30px 0 0 20px;
     margin-right: 0;
     margin-bottom: 0;
-    background-color: #707070;
+    background-color: rgb(218, 217, 217);
     color: rgb(0, 0, 0);
     width: minmax(200px, 100vw);
-
-    overflow-wrap:break-word;
 }
 
 .searchbar {
@@ -202,3 +200,106 @@ button {
     background-color: #e63434;
 }
 
+/*main content section*/
+main {
+    background-color: rgb(236, 234, 234);
+    color: rgb(0, 0, 0);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.2fr;
+    grid-template-rows: repeat(3, 150px);
+    padding-top: 5px;
+    column-gap: 10px;
+}
+
+.project-section-one {
+    grid-column: 1 / 2;
+    padding: 0 0 0 20px;
+}
+
+.project-section-two {
+    grid-column: 2 / 3;
+    padding: 20px 0 0 0;
+}
+
+.project {
+    width: 300px;
+    height: 120px;
+    border-radius: 5px;
+    border-left: 5px solid #e63434;
+    padding: 20px 10px 10px 20px;
+    box-shadow: 5px 5px 5px #630000;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.project-icons {
+    padding: 10px 0 0 200px;
+}
+
+.announcement-box {
+    box-shadow: 1px 1px 0.5px #000000;
+    border-radius: 5px;
+    padding: 10px 10px 10px 15px;
+    width: 200px;
+    height: 227px;
+    margin: 13px 10px 5px 0;
+    background-color: whitesmoke;
+    font-size: small;
+}
+
+.announcement-one, 
+.announcement-two { 
+    border-bottom: 1px solid black;
+}
+
+.announcement-two,
+.announcement-three {
+    margin-top: 10px;
+}
+
+.trending-box {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: repeat(4, 10px);
+    box-shadow: 1px 1px 0.5px #000000;
+    border-radius: 5px;
+    padding: 10px 1px 10px 5px;
+    width: 250px;
+    height: 170px;
+    margin: 13px 20px 0 0;
+    background-color: whitesmoke;
+    font-size: small;
+}
+
+.profile-pic,
+.profile-name {
+    margin-bottom: 0px;
+}
+
+.profile-pic {
+    grid-column: 1 / 2;
+}
+
+.profile-name {
+    grid-column: 2 / 3;
+}
+
+.avatar.pic {
+    width: 40px;
+    height: 35px;
+}
+
+.pic {
+    width: 40px;
+    height: 40px;
+}
+#deadpool {
+    width:50px;
+    height: 45px;
+}
+
+.acc-name {
+    padding-bottom: 10px;
+}
